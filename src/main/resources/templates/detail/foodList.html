@@ -1,0 +1,98 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<!-- 包含公共的JSP代码片段 -->
+	
+<title>无线点餐平台</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="style/js/jquery.js"></script>
+<script type="text/javascript" src="style/js/page_common.js"></script>
+	<script type="text/javascript">
+		$(function (){
+			//在当前页面dom对象加载后，执行loadcuisineData()；
+			loadcuisineData();
+		})
+
+		function loadcuisineData(){
+			$.ajax({
+				url:"foodLoad",
+				type:"get",
+				dataType:"json",
+				success:function(data){
+					// alert(data);
+					//清除旧的数据
+					$("#info").html("");
+					//循环处理
+					$.each(data,function (i,n) {
+						$("#TableData").append("<tr class=\"TableDetail1\">")
+								.append("<td>"+n.id+"</td>")
+								.append("<td>"+n.foodname+"</td>")
+								.append("<td>"+n.cuisinename+"</td>")
+								.append("<td>"+n.price+"</td>")
+								.append("<td>"+n.memberprice+"</td>")
+								.append("<td> <a href=\"updateFood?id="+n.id+"&foodname="+n.foodname+"&cuisinename="+n.cuisinename+"&price="+n.price+"&memberprice="+n.memberprice+"&introduce="+n.introduce+"\" class=\"FunctionButton\">更新</a> <a href=\"deleteFood?id="+n.id+"\"  class=\"FunctionButton\">删除</a></td>")
+								.append("</tr>")
+					})
+				}
+			})
+
+		}
+	</script>
+<link href="style/css/common_style_blue.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="style/css/index_1.css" />
+</head>
+<body>
+<!-- 页面标题 -->
+<div id="TitleArea">
+	<div id="TitleArea_Head"></div>
+	<div id="TitleArea_Title">
+		<div id="TitleArea_Title_Content">
+			<img border="0" width="13" height="13" src="style/images/title_arrow.gif"/> 菜品列表
+		</div>
+    </div>
+	<div id="TitleArea_End"></div>
+</div>
+
+
+	<!-- 过滤条件 -->
+	<!--<div id="QueryArea">-->
+		<!--<form action="/wirelessplatform/food.html" method="get">-->
+			<!--<input type="hidden" name="method" value="search">-->
+			<!--<input type="text" name="keyword" title="请输入菜品名称">-->
+			<!--<input type="submit" value="搜索">-->
+		<!--</form>-->
+	<!--</div>-->
+<!-- 主内容区域（数据列表或表单显示） -->
+<div id="MainArea">
+    <table class="MainArea_Content" align="center" cellspacing="0" cellpadding="0">
+        <!-- 表头-->
+        <thead>
+            <tr align="center" valign="middle" id="TableTitle">
+				<td>菜编号</td>
+				<td>菜名</td>
+				<td>所属菜系</td>
+				<td>价格</td>
+                <td>会员价格</td>
+				<td>操作</td>
+			</tr>
+		</thead>	
+		<!--显示数据列表 -->
+        <tbody id="TableData">
+		
+
+        
+
+        </tbody>
+    </table>
+	
+   <!-- 其他功能超链接 -->
+	<div id="TableTail" align="center">
+		<div class="FunctionButton"><a href="saveFood">添加</a></div>
+    </div> 
+</div>
+</body>
+</html>
