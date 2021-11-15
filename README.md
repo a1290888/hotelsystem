@@ -21,7 +21,8 @@ crud功能均运行正常
       
      
     表名：food 
-     ![FGH2JQA)}TY(312NYS%D7D2](https://user-images.githubusercontent.com/94090047/141731880-535a3d00-0daa-4f4a-99fb-b4a20c353fba.png)
+    
+      ![image](https://user-images.githubusercontent.com/94090047/141731997-ae34f5ca-c094-4278-96dd-108b09ecf602.png)
 
     
       
@@ -52,7 +53,7 @@ databasetable：
       tablename：food
       
       
-     ![FGH2JQA)}TY(312NYS%D7D2](https://user-images.githubusercontent.com/94090047/141731918-1d6172f1-cb34-4b2b-a8f9-7e08a4e5568d.png)
+     ![image](https://user-images.githubusercontent.com/94090047/141731982-cd62207c-984e-4b4c-b0c4-0b1766607bc8.png)
        
        
        
