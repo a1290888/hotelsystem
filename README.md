@@ -19,14 +19,11 @@ crud功能均运行正常
       表名：cuisine        
       ![image](https://user-images.githubusercontent.com/94090047/141731418-2deb84b2-0962-41bc-b856-938c9fcce384.png)
       
-      
+     
+    表名：food 
+     ![FGH2JQA)}TY(312NYS%D7D2](https://user-images.githubusercontent.com/94090047/141731880-535a3d00-0daa-4f4a-99fb-b4a20c353fba.png)
 
-      表名：food
-      
-      
-      
-      ![FGH2JQA)}TY(312NYS%D7D2](https://user-images.githubusercontent.com/94090047/141731734-ed78cc43-9bb5-448e-ac0e-5b56d3710d11.png)
-
+    
       
 
 
@@ -55,7 +52,7 @@ databasetable：
       tablename：food
       
       
-      ![FGH2JQA)}TY(312NYS%D7D2](https://user-images.githubusercontent.com/94090047/141731723-81de3691-9db1-43d0-9530-fd11a222e262.png)
+     ![FGH2JQA)}TY(312NYS%D7D2](https://user-images.githubusercontent.com/94090047/141731918-1d6172f1-cb34-4b2b-a8f9-7e08a4e5568d.png)
        
        
        
