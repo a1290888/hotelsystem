@@ -18,9 +18,11 @@ crud功能均运行正常
 数据库表：
       表名：cuisine        
       ![image](https://user-images.githubusercontent.com/94090047/141731418-2deb84b2-0962-41bc-b856-938c9fcce384.png)
+      
+      
 
       表名：food
-      ![image](https://user-images.githubusercontent.com/94090047/141731476-0b1e47a1-de17-4117-b2bf-7c1c17f9898c.png)
+      ![image](https://user-images.githubusercontent.com/94090047/141731549-bdb1c01c-2c39-4c19-8acc-1db4739306aa.png)
 
       
 
@@ -40,3 +42,18 @@ Technology used：jQuery，ajax，springboot，Mybatisplus，Thymeleft，mysql
 
 
 crud functions run successfully
+
+
+databasetable：
+      tablename：cuisine  
+      ![image](https://user-images.githubusercontent.com/94090047/141731418-2deb84b2-0962-41bc-b856-938c9fcce384.png)
+      
+      
+      tablename：food
+       ![image](https://user-images.githubusercontent.com/94090047/141731549-bdb1c01c-2c39-4c19-8acc-1db4739306aa.png)
+       
+       
+       
+       
+      
+      
