@@ -7,15 +7,15 @@
 
 
 
-使用的技术：jQuery，ajax，springboot，Mybatisplus，Thymeleft，mysql
+使用的技术：SpringBoot，MyBatis，MySQL，Ajax，JQuery，Thymeleaf 
 
 
 
-crud功能均运行正常
+系统功能均运行正常
 
 
 
-数据库表：
+主要数据库表：
       表名：cuisine        
       ![image](https://user-images.githubusercontent.com/94090047/141731418-2deb84b2-0962-41bc-b856-938c9fcce384.png)
       
